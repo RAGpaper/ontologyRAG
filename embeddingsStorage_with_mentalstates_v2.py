@@ -161,7 +161,7 @@ if __name__ == "__main__":
 
     # Path to JSONL with serialized PlantUML transitions/state profiles
     mental_model_jsonl_path = (
-        "C:/Users/XhaniD/AppData/Local/anaconda3/envs/RAG_env/recommender system/mental_state_model.jsonl"
+        "mental_state_model.jsonl"
     )
 
     persist_directory_mental = "mental_state_chroma_db"

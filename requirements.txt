@@ -1,7 +1,10 @@
 streamlit==1.46.1
 rdflib==7.1.4
+langchain==0.3.26
 langchain-community==0.3.26
 langchain-chroma==0.2.4
 langchain-ollama==0.3.3
 chromadb==1.0.13
 ollama==0.5.1
+aiohttp==3.12.13
+requests==2.32.4
