@@ -1,4 +1,4 @@
-# Ontology-Grounded RAG for Personalised Nutrition Advice
+# Ontology-Grounded RAG for Personalised Dietary Recommendations
 
 This repository contains the code and comparison data for an ontology-grounded
 retrieval-augmented generation (RAG) system that answers nutrition questions
