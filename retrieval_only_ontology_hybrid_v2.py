@@ -2794,6 +2794,10 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
+# Required by the NEVO 2023 conditions of use: output that involves
+# nutritional calculations must acknowledge NEVO.
+st.caption("Based on data from NEVO online version 2023/8.0, RIVM, Bilthoven and other data sources.")
+
 with st.expander("ℹ️ How to use this system", expanded=False):
     st.markdown("""
 ### Welcome! Here's how to get the most out of this system.
