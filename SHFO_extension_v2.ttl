@@ -9,7 +9,16 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @base <http://SustainHealthyFoodOntology#> .
 
-<http://SustainHealthyFoodOntology> rdf:type owl:Ontology .
+<http://SustainHealthyFoodOntology/2.0.0> rdf:type owl:Ontology ;
+                                           <http://purl.org/dc/elements/1.1/description> "2026-06-01"^^xsd:dateTime ,
+                                                                                         "SustainHealthyFood ontology establishes a semantic connection between the sustainability, health and food domains, supporting individuals in making informed nutritional decisions and receiving personalized recommendations based on dietary needs and personal preferences" ,
+                                                                                         "anonymous" ;
+                                           <http://purl.org/dc/elements/1.1/title> "SustainHealthyFoodOntology extension" ;
+                                           <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/" ;
+                                           <http://purl.org/dc/terms/source> "NEVO online, version 2023/8.0. RIVM, Bilthoven." ;
+                                           rdfs:comment "The nutritional composition data included in this ontology originate from the Dutch Food Composition Database (NEVO), version 2023/8.0, maintained by the National Institute for Public Health and the Environment (RIVM), the Netherlands.Source: NEVO online, version 2023/8.0. RIVM, Bilthoven.Reference: Rijksinstituut voor Volksgezondheid en Milieu (RIVM). (2023). NEVO online, version 2023/8.0. RIVM, Bilthoven. https://www.rivm.nl/en/dutch-food-composition-database" ;
+                                           owl:priorVersion "https://agroportal.eu/ontologies/SHFO" ;
+                                           owl:versionInfo "2.0.0" .
 
 #################################################################
 #    Annotation properties
@@ -17,6 +26,30 @@
 
 ###  http://SustainHealthyFoodOntology#recommendedFor
 shf:recommendedFor rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/description
+<http://purl.org/dc/elements/1.1/description> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/title
+<http://purl.org/dc/elements/1.1/title> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/created
+<http://purl.org/dc/terms/created> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/source
+<http://purl.org/dc/terms/source> rdf:type owl:AnnotationProperty .
 
 
 ###  http://www.w3.org/1999/02/22-rdf-syntax-ns#label
