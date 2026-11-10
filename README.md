@@ -136,7 +136,7 @@ The inclusion of third-party data does not imply permission for unrestricted red
 
 ### SustainHealthyFood Ontology (SHFO)
 
-The ontology-grounded RAG system presented in this repository builds upon the SustainHealthyFood Ontology (SHFO), originally described by Xhani and Guizzardi (2025) [1].
+The ontology-grounded RAG system presented in this repository builds upon the SustainHealthyFood Ontology (SHFO), originally described by Xhani and Guizzardi (2025) [1], and available in agroportal: https://agroportal.eu/ontologies/SHFO.
 
 The repository includes `SHFO_extension_v2.ttl`, an extended version of SHFO used for ontology-based retrieval and personalised nutrition recommendations.
 
