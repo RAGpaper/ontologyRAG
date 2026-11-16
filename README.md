@@ -42,7 +42,7 @@ retrieval. It is used to compare against the grounded system.
 | `ontology rag_ *.jsonl` | Answers from the grounded system for the comparison question sets |
 | `baseline_chat_export_*.txt` | Answers from the baseline for the same question sets |
 | `Evaluation of Ontology-Grounded Nutrition Recommendations - Google Forms.pdf` | Questionnaire distributed to experts for the evaluation|
-
+|`Evaluation of Ontology-Grounded Nutrition Recommendations  (Responses) combined`|Evaluation Responses received by domain experts|
 ## Requirements
 
 - Python 3.11
